@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700&display=swap');
+
 body {
     margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
@@ -7,3 +14,54 @@ header {
     height: 897px;
     width: 100%;
 }
+
+.header-top img {
+    width: 100px;
+    height: 35px;
+}
+
+button {
+    color: #FFFFFF;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 250px;
+    height: 55px;    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FF8040;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.header-top {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: rgba(255, 255, 255, 1)    ;
+}
+
+.menu {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 128, 64, 0.8);
+    backdrop-filter: blur(20px);
+    height: 104px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    width: 679px;
+    margin: 0 auto;
+}
+
