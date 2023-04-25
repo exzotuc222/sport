@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(../img/fon.png);
+    height: 897px;
+    width: 100%;
+}
