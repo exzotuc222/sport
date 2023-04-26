@@ -25,6 +25,15 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
 p {
     font-family: 'Mulish';
     font-style: normal;
@@ -179,7 +188,7 @@ input {
 }
 
 .abv {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 160px;
     margin-bottom: 80px;
@@ -205,7 +214,7 @@ input {
     margin: 40px auto 20px auto;
     display: flex;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .card h2 {
@@ -224,4 +233,120 @@ input {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 60px;
+}
+
+.coaches h1 {
+    margin: 160px auto 80px auto;
+    width: 238px;
+    height: 48px; 
+}
+
+.coach {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blok {
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    background: #282828;
+    box-shadow: 0px 0px 4px 4px rgba(204, 102, 51, 0.25);
+}
+
+.blok div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blok .left {
+    margin: 20px;
+}
+
+
+
+.circle {
+    background: rgba(204, 102, 51, 1);    ;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+  }
+
+.circles {
+    width: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto 0 auto;
+}
+
+.sub h1 {
+    margin: 160px auto 80px auto;
+    width: 238px;
+    height: 48px; 
+}
+
+.left-right {
+    width: 295px;
+    height: 320px;
+    background: #CC6633;
+}
+
+.center {
+    width: 400px;
+    height: 412px;
+    background: #CC6633;
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.price {
+    width: 80%;
+    height: 412px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price h2 {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 8px auto;
+}
+
+.price h3 {
+    background-color:#282828;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.left-right p {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.center p {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.line {
+    width: 160px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(255, 255, 255, 0.25);
+    margin: 5px auto;
+}
+
+.text {
+    margin: 40px auto;
 }
