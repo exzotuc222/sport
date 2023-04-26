@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
 
 body {
+    margin: 0;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
     margin: 0;
 }
 
@@ -11,6 +32,7 @@ p {
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .container {
@@ -114,5 +136,92 @@ input {
 
 .form p {
     margin-bottom: 40px;
+    margin-top: 15px;
 }
 
+.about-us {
+    width: 100%;
+    height: 256px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FF8040;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 160px;
+}
+
+.content h1 {
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+    width: 20%;
+    height: 48px;
+    border-bottom: 1px solid #FFFFFF;
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.content p {
+    width: 80%;
+}
+
+.black {
+    width: 100%;
+    height: 4003px;
+    background-color: rgba(40, 40, 40, 1); 
+}
+
+.abv {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 160px;
+    margin-bottom: 80px;
+}
+
+.abv h1 {
+    margin: 0 auto;
+    width: 238px;
+    height: 48px;
+}
+
+.card {
+    height: 401px;
+    width: 295px;
+    background: #CC6633;
+    box-shadow: 0px 0px 4px 2px rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+
+.card img {
+    width: 85px;
+    height: 85px;
+    margin: 40px auto 20px auto;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.card h2 {
+    background-color:#282828;
+    width: 100%;
+    text-align: center;
+}
+
+.card p {
+    margin: 10px 40px auto 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
